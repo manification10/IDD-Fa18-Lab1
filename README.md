@@ -55,14 +55,17 @@ When seen from the corner of an eye, the blinking can be seen when it is blinkin
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
-
+Yes. The Potentiometer controls the flow of the voltage and hence the current that lights up the LED. Depending on the current, the LED glows or dims to the fullest range.
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+The value of the integer variable led. For this part, I set it to 11.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
-
+The analogWrite() method sets the value of a PWM output pin. The analogWrite() is on a scale of 0 - 255, such that analogWrite(255) requests a 100% duty cycle (always on), and analogWrite(127) is a 50% duty cycle (on half the time).
+The digitalWrite() will set the specified pin to one of two states - HIGH/LOW, which equate to 5v (3.3v on some boards) and ground respectively.
+[Reference](https://arduino.stackexchange.com/questions/35873/whats-the-difference-between-analogwrite-and-digitalwrite)
 
 ## Part F. FRANKENLIGHT!!!
 
