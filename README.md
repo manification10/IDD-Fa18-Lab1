@@ -72,16 +72,21 @@ The digitalWrite() will set the specified pin to one of two states - HIGH/LOW, w
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+The computation is a switch that lights LEDs on the chip which is essentially a toggle function since the board is powered by batteries. The PCB(printed circuit board) has resistors and capacitors in it to control the flow of the current.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+No, There are no sensors in the device. 
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+The device is powered through 2 rechargable batteries that are connected to an AC current by a ROHS transformer. The device supports 220V - 50Hz, and power of 2 Watts. 
 
 **d. Is information stored in your device? Where? How?**
+No
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
+I connected my LED to the power source itself, to the point where the batteries are soldered into the chip. I experimented with the longer arm of the LED connected to the positive end of the battery and connecting the other side to differnt other points on the board to see the intensity of light controlled by the resistance distributed in the circuit.
 
 ### 3. Build your light!
 
