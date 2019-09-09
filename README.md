@@ -97,5 +97,6 @@ I connected my LED to the power source itself, to the point where the batteries 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
+[Frankenlight video](https://youtu.be/8q87IhuOJeY)
 
 **Include any schematics or photos in your lab write-up.**
