@@ -77,6 +77,9 @@ The device that I chose is a Lint Remover. I took apart the pieces and attached 
 ![Lint_remover_4](./lint_remover_4.jpeg)
 ![Lint_remover_5](./lint_remover_5.jpeg)
 
+The schematics of the circuit board: 
+![Schematics](./circuit.png)
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 The computation is a switch that lights LEDs on the chip which is essentially a toggle function since the board is powered by batteries. The PCB(printed circuit board) has resistors and capacitors in it to control the flow of the current.
 
