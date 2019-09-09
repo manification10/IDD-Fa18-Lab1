@@ -70,6 +70,12 @@ The digitalWrite() will set the specified pin to one of two states - HIGH/LOW, w
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+The device that I chose is a Lint Remover. I took apart the pieces and attached images of what's inside. 
+![Lint_remover_1](./lint_remover_1.jpeg)
+![Lint_remover_2](./lint_remover_2.jpeg)
+![Lint_remover_3](./lint_remover_3.jpeg)
+![Lint_remover_4](./lint_remover_4.jpeg)
+![Lint_remover_5](./lint_remover_5.jpeg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 The computation is a switch that lights LEDs on the chip which is essentially a toggle function since the board is powered by batteries. The PCB(printed circuit board) has resistors and capacitors in it to control the flow of the current.
